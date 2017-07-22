@@ -1,0 +1,26 @@
+body{
+  background-color: #64B5F6;
+  color: #000051;
+  opacity: 0.9;
+}
+
+.redes-sociales{
+  margin: 0px;
+  padding: 0px;
+  height: 180px;
+  vertical-align: bottom;
+}
+
+.logo-img {
+  height: 180px;
+  width: 180px;
+}
+
+.img-social {
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+}
