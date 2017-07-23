@@ -1,19 +1,31 @@
 body{
-  background-color: #64B5F6;
-  color: #000051;
-  opacity: 0.9;
+  background-color: #0277bd;
+  color: black;
+  opacity: 1;
+}
+
+.encabezado {
+  height: 150px;
+  background-color: #fffde7;
+  border-radius: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+
 }
 
 .redes-sociales{
-  margin: 0px;
-  padding: 0px;
-  height: 180px;
-  vertical-align: bottom;
+  height: inherit;
+  padding-bottom: 8px;
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .logo-img {
-  height: 180px;
-  width: 180px;
+  height: 140px;
 }
 
 .img-social {
@@ -23,4 +35,13 @@ body{
   border-radius: 8px;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .encabezado {
+    height: auto;
+    }
+  .redes-sociales{
+    justify-content: center;
+  }
 }
