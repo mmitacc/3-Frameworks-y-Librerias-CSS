@@ -1,16 +1,20 @@
 body{
-  background-color: #0277bd;
+  background-color: #01579b;
   color: black;
-  opacity: 1;
+
 }
 
 .encabezado {
   height: 150px;
   background-color: #fffde7;
-  border-radius: 5px;
   padding-left: 8px;
   padding-right: 8px;
+}
 
+.esquinas{
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
 
 .redes-sociales{
@@ -32,9 +36,27 @@ body{
   width: 40px;
   height: 40px;
   border: 2px solid white;
-  border-radius: 8px;
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
+}
+
+.enlaces{
+  background-color: #fff9c4;
+  border: #ffffff 1px solid;
+  padding-top: 10px;
+  height: 40px;
+  font-weight: bold;
+}
+
+a:hover img{
+  opacity: 0.5;
+  zoom: 1.2;
+}
+
+a:hover {
+  background-color: #01579b;
+  color: #ffffff;
+  font-stretch: expanded;
+  font-size: 1.4em;
+	text-decoration: none;
 }
 
 @media (max-width: 768px) {
