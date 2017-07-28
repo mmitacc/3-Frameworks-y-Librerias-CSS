@@ -12,6 +12,7 @@
   </head>
 
   <body class="container">
+
     <header>
       <div class="row encabezado esquinas">
         <div class="col-sm-6">
@@ -34,53 +35,73 @@
         <div class="col-sm-2 enlaces esquinas"><a href="#">Acordes</a></div>
       </div>
     </header>
-    <div class="row">
+
+    <div class="row cuerpo esquinas">
       <div class="col-sm-8">
         <!-- ....................PUBLICACIONES 1 ...................-->
-        <div class="row cuerpo esquinas">
-          <div class="col-sm-7">
-            <h3>Keane, se separa..!</h3>
-            <p class="text-justify">Keane es una banda inglesa de rock alternativo procedente de Inglaterra. Sus integrantes son Tim Rice-Oxley como compositor y teclista, Tom Chaplin como vocalista y guitarrista, Richard Hughes en la batería, y Jesse Quin en el bajo, este último se uniría en 2007. Pero ahora han decidido separarse. Según ha confirmado un representante, el grupo se tomará un descanso indefinido para que cada miembro pueda dedicarse a sus propios proyectos. Sin embargo, a pesar de que el vocalista ha querido dejar claro que no se trata de un adios definitivo, también ha hecho hincapié en que uno de los motivos que han motivado esta decisión ha sido el de dejarlo antes de que su energía y creatividad se agoten.</p>
+        <div>
+          <div class="row">
+            <div class="col-sm-7">
+              <h3>Keane, se separa..!</h3>
+              <p class="text-justify">Keane es una banda inglesa de rock alternativo procedente de Inglaterra. Sus integrantes son Tim Rice-Oxley como compositor y teclista, Tom Chaplin como vocalista y guitarrista, Richard Hughes en la batería, y Jesse Quin en el bajo, este último se uniría en 2007. Pero ahora han decidido separarse. Según ha confirmado un representante, el grupo se tomará un descanso indefinido para que cada miembro pueda dedicarse a sus propios proyectos. Sin embargo, a pesar de que el vocalista ha querido dejar claro que no se trata de un adios definitivo, también ha hecho hincapié en que uno de los motivos que han motivado esta decisión ha sido el de dejarlo antes de que su energía y creatividad se agoten.</p>
+            </div>
+            <div class="col-sm-5 cuadro-img">
+              <img src="imagen/Keane - Enjoy the silence.jpg" alt="Keane" class="img-thumbnail">
+            </div>
           </div>
-          <div class="col-sm-5 cuadro-img">
-            <img src="imagen/Keane - Enjoy the silence.jpg" alt="Keane" class="img-thumbnail">
+          <div class="media" style="margin-bottom: 25px">
+            <div class="media-left media-middle">
+              <img class="img-circle media-object" src="imagen/user.png" alt="Usuario" style="width:65px">
+            </div>
+            <div class="media-body">
+              <textarea class="texto-comentario" rows="3" id="comment" placeholder="Comentario..."></textarea>
+            </div>
           </div>
-        </div>
-        <div class="media">
-          <div class="media-left media-middle">
-            <img class="img-circle media-object" src="imagen/user.png" alt="Usuario" style="width:65px">
-          </div>
-          <div class="media-body esquinas">
-            <textarea class="texto-comentario" rows="3" id="comment" placeholder="Comentario..."></textarea>
-          </div>
-        </div>
-
           <!-- ....................PUBLICACIONES 2 ...................-->
-        <div class="row cuerpo esquinas">
-          <div class="col-sm-5 cuadro-img">
-            <img src="imagen/The Verve - Bitter Sweet Symphony.jpg" alt="Keane" class="img-thumbnail">
+          <div class="row ">
+            <div class="col-sm-5 cuadro-img">
+              <img src="imagen/The Verve - Bitter Sweet Symphony.jpg" alt="Keane" class="img-thumbnail">
+            </div>
+            <div class="col-sm-7">
+              <h3>The Verve, año 2017</h3>
+              <p class="text-justify">The Verve, Fue uno de los grupos británicos más importantes de los años 90, a pesar de las discusiones internas, problemas de salud, adicciones a las drogas y diversos pleitos judiciales que afectaron a sus integrantes.Como es acostumbrado tras largos años este año el ahora solista Richard Ashcroft lanza el nuevo single "Black Lines". Mientras que sus antiguos seguidores se preguntan si algun día se reuniran nuevamente.</p>
+            </div>
           </div>
-          <div class="col-sm-7">
-            <h3>The Verve, año 2017</h3>
-            <p class="text-justify">The Verve, Fue uno de los grupos británicos más importantes de los años 90, a pesar de las discusiones internas, problemas de salud, adicciones a las drogas y diversos pleitos judiciales que afectaron a sus integrantes.Como es acostumbrado tras largos años este año el ahora solista Richard Ashcroft lanza el nuevo single "Black Lines". Mientras que sus antiguos seguidores se preguntan si algun día se reuniran nuevamente.</p>
+          <div class="media" style="margin-bottom: 25px">
+            <div class="media-left media-middle">
+              <img class="img-circle media-object" src="imagen/user.png" alt="Usuario" style="width:65px">
+            </div>
+            <div class="media-body ">
+              <textarea class="texto-comentario" rows="3" id="comment" placeholder="Comentario..."></textarea>
+            </div>
           </div>
+          <!-- .........................................................-->
         </div>
-        <div class="media">
-          <div class="media-left media-middle">
-            <img class="img-circle media-object" src="imagen/user.png" alt="Usuario" style="width:65px">
-          </div>
-          <div class="media-body esquinas">
-            <textarea class="texto-comentario" rows="3" id="comment" placeholder="Comentario..."></textarea>
-          </div>
-        </div>
-
       </div>
-      <div class="col-sm-4">
-        <div class="row">
-          Buscar
-        </div>
-        <div class="row">
-          listas
+
+      <div class="col-sm-4 ">
+        <div class="">
+          <div class="row c-musical esquinas">
+            <!-- ....................INPUT "BUSCAR" ...................-->
+
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+                <input id="buscar" type="text" class="form-control" name="buscar" placeholder="Buscar por...">
+              </div>
+
+          </div>
+          <!-- .................SECCION DE LISTAS DE CANCIONES.................-->
+          <div class="row c-musical esquinas">
+            <p>
+              <label type="button" class="btn btn-xs btn-info btn-block" placeholder="Wake me up when september ends">
+                <audio src="music/Green Day - Wake me up when september ends.mp3" controls>
+                </audio>
+              </label>
+            </p>
+            <p><label type="button" class="btn btn-primary btn-block"></label></p>
+            <p><label type="button" class="btn btn-primary btn-block"></label></p>
+          </div>
+          <!-- ........................................................-->
         </div>
       </div>
     </div>

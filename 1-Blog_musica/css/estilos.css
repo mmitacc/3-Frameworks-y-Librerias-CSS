@@ -31,7 +31,7 @@ body{
 }
 
 .cuadro-img{
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .logo-img {
@@ -41,7 +41,7 @@ body{
 .img-social {
   width: 40px;
   height: 40px;
-  border: 2px solid white;
+  border: 2px solid #ffffff;
 }
 
 .enlaces{
@@ -55,6 +55,9 @@ body{
 .texto-comentario{
   width: 100%;
   color: #000a12;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
 }
 
 a:hover img{
@@ -72,8 +75,17 @@ a:hover {
 
 .cuerpo{
   background-color: #0288d1;
+  margin-top: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.c-musical{
+  background-color: #01579b;
   margin-top: 20px;
-  padding: 5px 5px;
+  border: 5px;
+  height: auto;
+  border: 1px solid #ffffff;
 }
 
 @media (max-width: 768px) {
