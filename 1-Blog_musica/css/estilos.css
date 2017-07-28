@@ -55,9 +55,9 @@ body{
 .texto-comentario{
   width: 100%;
   color: #000a12;
-  border-radius: 15px;
-  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
 }
 
 a:hover img{
@@ -81,11 +81,17 @@ a:hover {
 }
 
 .c-musical{
-  background-color: #01579b;
-  margin-top: 20px;
-  border: 5px;
-  height: auto;
-  border: 1px solid #ffffff;
+  background-color: #fffde7;
+  margin: 20px 0px;
+  padding: 10px 0px;
+  height: 100%;
+  width: auto;
+  border: 2px solid #ffffff;
+}
+
+.espaciado{
+  margin-top: 10px;
+  margin-bottom: 15px
 }
 
 @media (max-width: 768px) {
