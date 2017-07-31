@@ -1,0 +1,15 @@
+body{
+  background-image: url("../imagen/gastronomia.jpg");
+}
+
+.mi-logo{
+  height: 150px;
+}
+
+.secundary{
+  opacity: 0.95 !important;
+}
+
+.button{
+  border: 1px solid #ffffff !important;
+}
