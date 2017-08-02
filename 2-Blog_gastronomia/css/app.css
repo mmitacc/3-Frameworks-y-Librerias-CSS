@@ -7,9 +7,19 @@ body{
 }
 
 .secundary{
-  opacity: 0.95 !important;
+  opacity: 0.9 !important;
 }
 
 .button{
   border: 1px solid #ffffff !important;
+}
+
+.warning{
+  background-color: #c43e00 !important;
+  color: #ffffff !important;
+  padding-bottom: 0px !important;
+}
+
+.size{
+  font-size: 50px;
 }
