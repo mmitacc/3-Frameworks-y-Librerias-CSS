@@ -1,0 +1,29 @@
+html{
+  background-image: url("../imagen/fondo_paisaje.jpg");
+}
+
+.encabezado{
+  margin: 0px auto;
+}
+
+.boton{
+  height: 40px;
+}
+
+.botones{
+  margin: 30px 0px;
+}
+
+.boton-altura{
+  height: 55px;
+  margin-top: 1px;
+}
+
+.fondo-transparente {
+    opacity: 0.8 !important;
+    font-weight: bold !important;
+  }
+
+.contenedor-imagen{
+  height: 100%;
+}
