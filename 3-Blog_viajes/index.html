@@ -37,7 +37,7 @@
     </div>
 
     <div class="row">
-      <div class="s1 col">
+      <div class="s1 col hide-on-med-and-down">
         <div class="row botones">
           <a href="#" class="btn btn-floating btn-large pulse black">
             <img src="imagen/ttd.png" class="boton-altura">
@@ -64,9 +64,9 @@
           </a>
         </div>
       </div>
-      <div class="s4 col">
+      <div class="m4 col">
         <div class="row">
-          <div class="s12 col">
+          <div class="m12 col">
             <div class="row">
               <div class="card-image">
                 <img src="imagen/cusco.jpg" alt="Machupichu - Cusco" class="responsive-img z-depth-4 materialboxed">
@@ -80,9 +80,9 @@
           </div>
         </div>
       </div>
-      <div class="s4 col">
+      <div class="m4 col">
         <div class="row">
-          <div class="s12 col">
+          <div class="m12 col">
             <div class="row">
               <div class="card-image">
                 <img src="imagen/tacna.jpg" alt="Ciudad Heroica de Tacna" class="responsive-img z-depth-4 materialboxed">
@@ -91,9 +91,9 @@
           </div>
         </div>
       </div>
-      <div class="s3 col">
+      <div class="m3 col">
         <div class="row">
-          <div class="s12 col">
+          <div class="m12 col">
             <div class="row">
               <div class="card-image">
                 <img src="imagen/ica.jpg" alt="Huacachina - Ica" class="responsive-img z-depth-4 materialboxed">
@@ -113,22 +113,78 @@
         </div>
       </div>
     </div>
-      <div class="s9 col">
-        <div class="row">
-          <div class="s4 col">
-            <img src="imagen/trujillo.jpg" alt="Machupichu - Trujillo" class="responsive-img z-depth-4 materialboxed">
+
+    <div class="row">
+      <div class="m9 s12 col">
+        <div class="card blue-grey darken-4 white-text">
+          <div class="row">
+            <div class="s12 col">
+              <h4>Los Mejores Balnearios de Surf del Perú</h4>
+            </div>
           </div>
-          <div class="s8 col">
-            <h3>Trjillo</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="row">
+            <div class="s12 col">
+              <div class="left contenedor-imagen">
+                <img src="imagen/trujillo.jpg" alt="Machupichu - Trujillo" class="contenedor-img">
+              </div>
+              <div>
+                <p>
+                  <div class="chip">29 de Diciembre del 2016 <i class="material-icons">date_range</i></div>
+                  <div class="chip">Huanchaco - Trujillo, Perú <i class="material-icons">place</i></div>
+                </p>
+                <p class="flow-text texto-justificado">Es el balneario más importante de Trujillo, en donde los turistas pueden vivir la increíble experiencia de navegar en los famosos caballitos de totora. Si te gusta el surf pero nunca lo has practicado, puedes aprovechar para aprender en una de las excelentes academias que se encuentran en los alrededores. Huanchaco es un balneario histórico y una ciudad peruana ubicada a orillas del océano Pacífico en el Distrito de Huanchaco que integra el Área metropolitana de Trujillo en la Región La Libertad, actualmente forma parte de la "Ruta Moche". Es el balneario más visitado de la ciudad de Trujillo,​ lugar donde los mochicas dieron origen al ceviche, plato de la gastronomía peruana de reconocimiento internacional. Durante el reinado de las culturas Moche y Chimú Huanchaco fue un importante puerto en la región.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card blue-grey darken-4 white-text">
+          <div class="row">
+            <div class="s12 col">
+              <h4>Deja tu comentario</h4>
+            </div>
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                      <i class="material-icons prefix">account_circle</i>
+                      <input id="icon_prefix" type="text" class="validate">
+                      <label for="icon_prefix">Nombre:</label>
+                    </div>
+                <div class="input-field col s6">
+                      <i class="material-icons prefix">markunread</i>
+                      <input id="icon_email" type="email" class="validate">
+                      <label for="icon_email">Correo Eléctronico:</label>
+                    </div>
+              </div>
+              <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <i class="material-icons prefix">message</i>
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Comentario</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                      <i class="material-icons right">send</i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </form>
           </div>
         </div>
       </div>
-      <div class="s3 col">
-
+      <div class="m3 s12 col card-panel blue-grey darken-4 white-text">
+        <div class="botones center-align">
+          <img src="imagen/mi_foto.jpg" alt="Manuel Charles Mitacc Quilcaro" class="circle" style="width:130px">
+          <h4 class="center-align">Perfil del autor</h4>
+          <hr>
+        </div>
+        <p class="texto-justificado">Manuel Mitacc es un amante de la innovación pero con una amalgama de valores eternos, eso hace que perciba la realidad con unos lentes de prosperidad para todos.</p>
+        <p class="texto-justificado">De una generación que no creció con el internet, pero tuvo una educación final bajo esas nuevas tecnologías junto a principios evangélicos Sud.</p>
+        <p class="texto-justificado">En sus propias palabras cita: “Cada uno de nosotros está en un lugar, bajo ciertas circunstancias, rodeado de especiales personas y en un tiempo determinado. Por una razón conveniente para uno mismo. Ese instante como cada instante anterior o siguiente, NO es una casualidad ES APREHENDIZAJE, y tiene una supervisión divina.”</p>
       </div>
-    <div class="row">
-
     </div>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

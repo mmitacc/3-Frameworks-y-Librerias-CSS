@@ -25,5 +25,19 @@ html{
   }
 
 .contenedor-imagen{
-  height: 100%;
+  width: 50%;
+}
+
+.contenedor-img{
+  width: 95%;
+}
+
+.texto-justificado{
+  text-align : justify;
+}
+
+@media (max-width: 600px) {
+  .contenedor-imagen{
+    width: 100%;
+  }
 }
